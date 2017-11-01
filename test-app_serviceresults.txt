@@ -1,0 +1,31 @@
+::::::PRUEBA BACKEND TELERIK
+
+
+REGISTER
+https://api.everlive.com/v1/GWfRtXi1Lwt4jcqK/Users
+JSON
+{"Username":"sdsdsd","Email":"dfdf@sdsds.com","Password":"1234"}
+
+{
+"Result": {
+"Id": "325a9440-bf2d-11e7-989c-c175e8da0a22",
+"CreatedAt": "2017-11-01T17:50:49.732Z"
+}
+}
+
+
+GET-TOKEN
+https://api.everlive.com/v1/GWfRtXi1Lwt4jcqK/oauth/token
+JSON
+{"username": "sdsdsd",
+  "password": "1234",
+  "grant_type": "password"}
+
+
+{
+"Result": {
+"access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0IjoibjB0UHFFZnFyZG9sb1N6eE1QRlN3VHhTMmM5c1hTb05KcnY4TXRuOVZBSUQwMldnQ3dKSFJ5d283VVNJZzdHSjlRdk1tNVJCNnpnVDhaSGZ3Z3gzcnZMM0NhTmtFUXRzSnpnQVdwblVwY2x1TE4xWlJWQkxneU4xVUVNUlJobjdYbWxDOWtMZ3hJbndTcXlWT1Fjc0duNDFhRjl2Sm5mS0lOZW9KcU54M2hmdUR1OUVFSHdCaExtYlF1NnVDTk9ZUUxSa1BBOThMSGp1SWhZRDZQZWF3WjU2Ym83eVp6aGE3Q0tUdlo2cmhqcDlEZHJ6OFdhSE51d2dCTHRFMGlNRyIsImV4cGlyZXMiOjE1MTQ3NDIyMDQsImlzc3VlciI6ImV2ZXJsaXZlIiwiaWF0IjoxNTA5NTU4MjAzfQ.MmByqwGIvFdCVKOYP0gtZ76b2--Vg8Et2-yPr3dVanM",
+"token_type": "bearer",
+"principal_id": "d5bfb860-bf2b-11e7-92fe-d920f9443a50"
+}
+}
